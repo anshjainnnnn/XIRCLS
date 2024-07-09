@@ -1,6 +1,7 @@
 .baap{
   justify-content: center;
   align-items: center;
+
   background-color: rgb(255, 255, 255);
 }
 .home-container {
@@ -13,7 +14,7 @@
 
 }
 .navbar {
-  background: #c7c7c7;
+  background: #fcf1d2;
 
   font-size: x-large;
   align-items: center;
@@ -41,8 +42,8 @@
 }
 
 .chota {
-  background: #3e004c;
-  color: rgb(255, 255, 255);
+  background: #fcf1d2;
+  color: rgb(0, 0, 0);
   box-sizing: content-box;
   padding-left: 40px;
   padding-right: 50px;
@@ -54,8 +55,8 @@ border-top: 1px solid rgb(6, 46, 58);
   
 }
 .ota {
-  background: #3e004c;
-  color: rgb(255, 255, 255);
+  background: #fcf1d2;
+  color: rgb(0, 0, 0);
   padding-top: 200px;
   justify-content: center;
   text-align: center;
@@ -68,26 +69,26 @@ border-top: 1px solid rgb(6, 46, 58);
 .chota .cen {
   
   flex-wrap: wrap;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 4.2em;
 
 }
 .ota .cen {
   flex-wrap: wrap;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 4.2em;
 
 }
 .j .en{
   flex-wrap: wrap;
   padding-top:220px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 4.2em;
 
 }
 .j .e{
   flex-wrap: wrap;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 4.2em;
 
 }
@@ -100,8 +101,7 @@ border-top: 1px solid rgb(6, 46, 58);
 }
 
 .grid-container {
-  background: #3e004c;
-  color: rgb(255, 255, 255);
+  background: #fcf1d2;
   display: grid;
   padding-top: 200px;
   grid-template-columns: repeat(3, 1fr);
@@ -111,7 +111,7 @@ border-top: 1px solid rgb(6, 46, 58);
 }
 
 .grid-item {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 1px;
   height: 300px;
   display: flex;
@@ -133,13 +133,13 @@ border-top: 1px solid rgb(6, 46, 58);
   padding-top: 9px;
   margin: 0 0 8px 0;
   font-size: 1.5em;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   align-self: center;
 }
 
 .grid-item p {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: 0;
   align-self: center;
   text-align: center;
@@ -153,8 +153,8 @@ border-top: 1px solid rgb(6, 46, 58);
 
 
 .mota  {
-  background: #3e004c;
-  color: rgb(255, 255, 255);
+  background: #fcf1d2;
+  color: rgb(0, 0, 0);
   font-size:20px;
   justify-content: flex-start;
   
@@ -162,8 +162,8 @@ border-top: 1px solid rgb(6, 46, 58);
 
 .gri-container {
   
-  background: #3e004c;
-  color: rgb(255, 255, 255);
+  background: #fcf1d2;
+  color: rgb(0, 0, 0);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
@@ -173,15 +173,12 @@ border-top: 1px solid rgb(6, 46, 58);
 
 
 .gri-item {
-  
-  background: #3e004c;
-  color: rgb(255, 255, 255);
-
+  background: #fcf1d2;
+  color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   align-items: start;
   align-items: flex-start;
-  
 }
 
 .gri-img {
@@ -189,7 +186,7 @@ border-top: 1px solid rgb(6, 46, 58);
   margin-bottom: 1px;
 }
 .gri-item h1{
-  color: rgb(208, 228, 26);
+  color: rgb(0, 0, 0);
   font-size:40px;
   font-weight: 700;
   margin-left: 3rem;
@@ -199,7 +196,7 @@ border-top: 1px solid rgb(6, 46, 58);
 }
 
 .gri-item h4 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size:40px;
   font-weight: 100;
   margin-left: 3rem;
@@ -207,7 +204,7 @@ border-top: 1px solid rgb(6, 46, 58);
 
 }
 .gri-item h3{
-  color: rgb(208, 228, 26);
+  color: rgb(0, 0, 0);
   font-size:40px;
   font-weight: 700;
   margin-left: 3rem;
@@ -219,7 +216,7 @@ border-top: 1px solid rgb(6, 46, 58);
 
 
 .gri-item p {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size:40px;
   font-weight: 100;
   margin-left: 3rem;
@@ -232,7 +229,7 @@ border-top: 1px solid rgb(6, 46, 58);
   justify-items: center;
   padding-top: 25px;
   padding-right: 30px;
-  box-shadow: #c7c7c7;
+  box-shadow: #000000;
   padding-bottom: 25px;
   margin-top: 10px;
   height: max-content;
@@ -241,17 +238,16 @@ border-top: 1px solid rgb(6, 46, 58);
 }
 
 .rota {
-  background: #3e004c;
-  color: rgb(255, 255, 255);
+  background: #fcf1d2;
+  color: rgb(0, 0, 0);
   padding-right: 100px;
   padding-left: 100px;
   padding-bottom: 100px;
 
 }
 .gotu{
-  background: #3e004c;
-  color: rgb(255, 255, 255);
-  border: 1px solid gold;
+  background: #fcf1d2;
+  color: rgb(0, 0, 0);
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 100px;
@@ -269,7 +265,7 @@ border-top: 1px solid rgb(6, 46, 58);
   font-weight: 500;
   padding-top: 0px;
   padding-left: 10px;
-  color: rgb(221, 255, 0);
+  color: rgb(0, 0, 0);
   
 
 }
@@ -285,7 +281,7 @@ border-top: 1px solid rgb(6, 46, 58);
   padding-left: 30px;
   padding-right: 30px;
   color: rgb(255, 255, 255);
-  border: 2px solid rgb(234, 255, 0);
+ 
   text-align: center;
   height: 60px;
   justify-content: center;
@@ -293,8 +289,8 @@ border-top: 1px solid rgb(6, 46, 58);
 
 }
 .ta {
-  background: #3e004c;
-  color: rgb(255, 255, 255);
+  background: #fcf1d2;
+  color: rgb(0, 0, 0);
   padding-right: 100px;
   padding-left: 100px;
   padding-bottom: 100px;
@@ -302,9 +298,9 @@ border-top: 1px solid rgb(6, 46, 58);
   
 }
 .tu{
-  background: #eaff00;
+  background: #fbe7ae;
   color: rgb(0, 0, 0);
-  border: 1px solid gold;
+  
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 100px;
@@ -337,14 +333,14 @@ border-top: 1px solid rgb(6, 46, 58);
   padding-right: 30px;
   font-size: xx-large;
   color: rgb(255, 255, 255);
-  border: 2px solid rgb(234, 255, 0);
+  
   height: 90px;
   background-color: rgb(0, 0, 0); 
   border-radius: 20px;
 
 }
 .q{
-    background: #eaff00;
+  background: #fbe7ae;
     color: rgb(0, 0, 0);
 
     display: flex flexbox;
@@ -399,7 +395,7 @@ border-top: 1px solid rgb(6, 46, 58);
 }
 
 .mahek{
-  background-color: aliceblue;
+  background: #fcf1d2;
   justify-content: center;
   align-items: center;
   text-align: center;
